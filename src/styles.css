@@ -1,0 +1,27 @@
+*{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+
+
+#main{
+    background-color: #0D6EFD;
+    height: 100vh;
+}
+
+
+#sideBar{
+    background-color: #F8F8F8;
+    height: 100vh;
+}
+
+#icon{
+    width: 7rem;
+    height: 7rem;
+    flex-shrink: 0;
+}
+
+#searchBar{
+    margin-top: 8rem !important;
+}
