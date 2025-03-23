@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
     padding: 0 !important;
     margin: 0 !important;
@@ -24,4 +26,27 @@
 
 #searchBar{
     margin-top: 8rem !important;
+}
+#inputDiv{
+    border-radius: 3.375rem;
+    border: 1px solid #0D6EFD;
+    background: #D8EBFD;
+    justify-content: space-around;
+
+}
+#input{
+    height: 60px;
+    width:20rem;
+    background-color: #D8EBFD;
+    
+}
+#input:focus {
+    outline: none ;
+    box-shadow: none ;
+    border: none ;
+  }
+
+#iconText{
+    font-family: "Kumbh Sans", sans-serif;
+    /* color: #0D6EFD; */
 }
