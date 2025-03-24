@@ -38,6 +38,7 @@ body{
     margin-top: 8rem !important;
 }
 #inputDiv{
+    box-sizing: border-box;
     border-radius: 3.375rem;
     border: 1px solid #0D6EFD;
     background: #D8EBFD;
@@ -45,7 +46,8 @@ body{
 
 }
 #inputDiv:focus-within{
-    border: 1px solid rgb(30, 26, 239);
+    outline: 2px solid rgb(30, 26, 239);
+    
 }
 #input{
     height: 60px;
@@ -57,8 +59,10 @@ body{
     outline: none ;
     box-shadow: none ;
     border: none ;
-    background-color: #D8EBFD;
-  }
+    background-color: #D8EBFD !important;
+     
+}
+
 
 #iconText{
     font-family: "Kumbh Sans", sans-serif;
@@ -80,4 +84,10 @@ body{
     align-items: center;
     margin-top: 0;
     height: 90%;
+}
+#submit{
+    transition: 0.3s
+}
+#submit:hover{
+    transform: scale(1.15);
 }
