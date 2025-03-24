@@ -10,7 +10,7 @@
 
     <div>
         <div class="row">
-            <div class="col-5" id="sideBar" >
+            <div class="col-5 m-0 p-0" id="sideBar" >
                 <div class="d-flex align-items-center">
                     <svg xmlns="http://www.w3.org/2000/svg" width="122" height="122" viewBox="0 0 122 122" fill="none" id="icon">
                         <path d="M24.7428 38.7147L25.1507 31.1016L33.1716 31.2376L36.2984 23.8964L44.0475 27.1591L50.437 22.265L56.0109 27.1591L64.3037 24.3042L67.4305 31.1016L74.2279 32.5971L74.7717 39.6663L81.5691 43.7448L79.1221 49.8624L83.6083 54.4847L80.2096 58.5631L34.9389 87.656L31.2684 80.9945L24.1991 80.8586L24.0631 72.4298L18.0814 68.8952L20.2566 62.0978L15.9062 56.9317L19.5768 49.5906L16.9938 42.7931L24.7428 38.7147Z" fill="#FCAF27"/>
@@ -96,12 +96,29 @@
                     </div>
                 </div>
             </div>
-            <div class="col-7" id="main"></div>
+            <div class="col-7 " id="main" >
+              <div id="clock" class="d-flex flex-column">
+                <div id="time"></div>
+                <div id="date"></div>
+              </div>
+              <div id="content">
+                <img src="D:\The odin works\CloudSeven\assets\get-started.svg" class="m-0" alt="" style="transform: scale(0.9); width:28rem; height: 28rem;">
+                <div class="d-flex ">
+                  <h1 style="color: white;">Enter your City to</h1>
+
+                  <div style=" color: #FFF;font-size: 2.5rem;border-radius: 0.8125rem 0.8125rem 2.21875rem 0.8125rem;background: #FFD700;width: 15.1875rem;height: 3.375rem;flex-shrink: 0;">Get Started</div>
+                </div>
+              </div>
+            </div>
+
+
+
+
         </div>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <script src="index.js"></script>
+    <script src="index.js" type="module"></script>
 
 </body>
 </html>
