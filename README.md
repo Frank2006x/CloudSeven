@@ -1,19 +1,52 @@
-1. build:
-Purpose: This script is used to create a production-ready build of your application. It runs Webpack with the production configuration file (webpack.prod.config.js).
-How to use:
-`npm run build`
-This will bundle your project, optimize assets (e.g., minifying JavaScript, CSS, etc.), and output the final build to a specified directory (usually dist/).
+# CloudSeven Weather App
 
-2. dev:
-Purpose: This script is used to start the Webpack development server with a development configuration (webpack.dev.config.js).
-It provides features like hot module replacement (HMR), automatic reloading of the browser, and easier debugging.
-`npm run dev`
-This will launch the development server, which you can access via a web browser (usually at http://localhost:8080/).
-The server watches for changes in your files and automatically refreshes the browser with the updated content.
+CloudSeven is a weather application that allows users to fetch and display real-time weather information for a specified city using the WeatherStack API.
 
-3. start
-Purpose: This is similar to dev, but it adds the --open flag, which automatically opens your default web browser when the server starts. It also sets the mode to development.
-`npm start`
-This is particularly useful for testing your app in development without needing to manually open the browser.
+---
 
-**If you are win user change the end sequence character to LF**
+## Features
+
+- Displays the current date and time dynamically.
+- Fetches weather data such as temperature, wind speed, humidity, and UV index for a given city.
+- Provides a progress bar to visually represent humidity levels.
+-  user-friendly interface.
+
+---
+
+
+## API Integration
+This project uses the WeatherStack API to fetch real-time weather data. Replace the access_key in src/index.js with your own API key:
+
+
+### Project structure
+.
+├── .gitignore
+├── .prettierrc
+├── [eslint.config.mjs](http://_vscodecontentref_/0)
+├── [package.json](http://_vscodecontentref_/1)
+├── [README.md](http://_vscodecontentref_/2)
+├── [webpack.dev.config.js](http://_vscodecontentref_/3)
+├── [webpack.prod.config.js](http://_vscodecontentref_/4)
+├── src/
+│   ├── [index.js](http://_vscodecontentref_/5)
+│   ├── [styles.css](http://_vscodecontentref_/6)
+│   └── [template.html](http://_vscodecontentref_/7)
+├── assets/
+│   └── get-started.svg
+└── dist/
+
+
+#### Dependencies
+Webpack
+Webpack Dev Server
+HTML Webpack Plugin
+Style Loader
+CSS Loader
+HTML Loader
+ESLint
+Prettier
+License
+This project is licensed under the ISC License.
+
+## Author
+**Frank2006x** ```
