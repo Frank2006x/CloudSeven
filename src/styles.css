@@ -82,12 +82,22 @@ body{
     flex-direction: column;
     /* justify-content: center; */
     align-items: center;
-    margin-top: 0;
+    margin: 0rem 3rem;
     height: 90%;
+
+    
 }
 #submit{
     transition: 0.3s
 }
 #submit:hover{
     transform: scale(1.15);
+}
+
+#details{
+    
+    padding: 2rem;
+    color: #F8F8F8;
+    margin-top: 5rem;
+   
 }
